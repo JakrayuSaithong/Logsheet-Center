@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>fxss-rate jQuery Rating Plugin Example</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+    <style>
+        html {
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+        body {
+            font-family: "Roboto",sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background-color: #fff;
+            min-height: 100vh;
+            background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+            color: #fff;
+            padding: 2em;
+        }
+        .container { margin: 150px auto; max-width: 640px; }
+        h1 { margin-bottom: 150px; }
+    </style>
+    <link rel="stylesheet" href="fxss-rate/rate.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="fxss-rate/rate.js"></script>
+
+</head>
+<body>
+    <div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/other/star-rating-fxss.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+    <div class="container">
+        <h1 class="head">fxss-rate Rating Plugin Demo</h1>
+        <div class="paragraph padding-left-20">
+            <div id="rateBox"></div>
+            <script>
+                $("#rateBox").rate({
+                    length: 5,
+                    value: 3.5,
+                    readonly: false,
+                    size: '48px',
+                    selectClass: 'fxss_rate_select',
+                    incompleteClass: 'fxss_rate_no_all_select',
+                    customClass: 'custom_class',
+                    callback: function(object){
+                        console.log(object)
+                    }
+                });
+            </script>
+
+        </div>
+
+
+
+
+    </div>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

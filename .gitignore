@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Sensitive Configuration and Keys
+config/connection.php
+Yourlicensekey
+
+# Directories that might contain user uploads (optional, but good practice)
+# uploads/
+# assets/uploads/
+
+# IDE and Editor folders
+.vscode/
+.idea/
